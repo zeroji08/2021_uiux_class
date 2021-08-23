@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       
+       font-family: 'Abel', sans-serif;
+        font-family: 'Open Sans Condensed', sans-serif;
+       #section p{background-color:yellowgreen;}
+       #section >p{background-color: cadetblue;}
+        
+    </style>
+</head>
+<body>
+    <div class="box">test
+
+      <div id="section">
+          <div class="class">
+              <p>test</p>
+              <p>test</p>
+              <p>test</p>
+          </div>
+          <p>child</p>
+      </div>
+
+
+      <style>
+          div[title="test"]{background-color: bisque;}
+          input[type="text"]{background-color:white}
+          img[src$="jpg"]{border: 10px solid black}
+      </style>
+      <div title="test">han</div>
+      <div title="han">lorem</div>
+      <input type="text">
+      <hr>
+      <img src="../images/testimg.jpg" alt="">
+
+
+      <hr>
+      <style>
+        div.box1{
+            border:5px solid orange;
+            text-align: center;
+            width: 100px;height: 100px;
+            line-height: 100px;
+            padding: 20px;
+        }
+      </style>
+      <div class="box1">test</div>
+</body>
+</html>

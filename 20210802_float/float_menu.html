@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float menu</title>
+    <style>
+        /*reset*/
+        *{margin: 0; padding: 0;}
+        li{list-style: none;}
+        .clearfix:after{content: "";clear: both; display: block;}
+        a:link,a:visited{text-decoration: none;color: black;}
+
+        /*nav*/
+        div.nav{width: 1000px;background-color: palegoldenrod; margin: 0 auto;}
+        /* 메뉴의 크기 설정 , 배경 설정, 여백을 없애주기. */
+        div.nav>ul>li{float:left; width: 16.66%;}
+        /* float를 설정할 경우 왼쪽을 기준으로 일렬로 정렬, 각 메뉴의 크기 설정 */
+       
+        /* a태그 */
+        div.nav>ul>li>a{display: block; text-align: center;height: 40px;line-height: 40px;}
+        /* 1.display 블럭처리 2. 가운데 맞춤 3.높이 설정 4.눌르는 부위 설정  */
+        div.nav>ul>li>a:hover{color: white; background-color: darkgreen;}
+        /* 무조건 a태그에넣어서 마우스 오버시 글자색상 흰색, 배경 초록색으로 들어가게 하기 */
+</style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu2</a></li>
+            <li><a href="#">menu3</a></li>
+            <li><a href="#">menu4</a></li>
+            <li><a href="#">menu5</a></li>
+            <li><a href="#">menu6</a></li>
+        </ul>
+    </div>
+</body>
+</html>

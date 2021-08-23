@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+@charset "utf-8";
+
+*{margin: 0;padding: 0;box-sizing:border-box}
+li{list-style: none;}
+a:link,a:visited{text-decoration: none;color: #000;}
+.clearfix:after{
+    content:"";display: block;clear: both;
+=======
+@charset "utf-8";
+
+*{margin: 0;padding: 0;box-sizing:border-box}
+li{list-style: none;}
+a:link,a:visited{text-decoration: none;color: #000;}
+.clearfix:after{
+    content:"";display: block;clear: both;
+>>>>>>> b2f3d887a757d967ec90c04728322bd27f3ebaa2
+}
